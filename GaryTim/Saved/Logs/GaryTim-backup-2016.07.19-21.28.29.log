@@ -1,0 +1,683 @@
+﻿[2016.07.20-03.03.37:329][  0]Log file open, 07/19/16 20:03:37
+[2016.07.20-03.03.37:329][  0]LogInit:Display: Running engine for game: GaryTim
+[2016.07.20-03.03.37:329][  0]LogPlatformFile: Not using cached read wrapper
+[2016.07.20-03.03.37:329][  0]LogInit:Display: RandInit(-1679488774) SRandInit(-1679488773).
+[2016.07.20-03.03.37:329][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.07.20-03.03.37:329][  0]LogStats: Stats thread started at 0.121472
+[2016.07.20-03.03.37:329][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.07.20-03.03.37:329][  0]LogInit: API Version: 2758231
+[2016.07.20-03.03.37:329][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.07.20-03.03.37:329][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.07.20-03.03.37:329][  0]LogInit: Build Configuration: Development
+[2016.07.20-03.03.37:329][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.07.20-03.03.37:329][  0]LogInit: Command line: 
+[2016.07.20-03.03.37:329][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.07.20-03.03.37:329][  0]LogInit: Rocket: 1
+[2016.07.20-03.03.37:344][  0]LogInit: Using libcurl 7.41.0
+[2016.07.20-03.03.37:344][  0]LogInit:  - built for x86_64-pc-win32
+[2016.07.20-03.03.37:344][  0]LogInit:  - supports SSL with WinSSL
+[2016.07.20-03.03.37:344][  0]LogInit:  - other features:
+[2016.07.20-03.03.37:344][  0]LogInit:      CURL_VERSION_SSL
+[2016.07.20-03.03.37:344][  0]LogInit:      CURL_VERSION_IPV6
+[2016.07.20-03.03.37:344][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.07.20-03.03.37:344][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.07.20-03.03.37:344][  0]LogInit:      CURL_VERSION_IDN
+[2016.07.20-03.03.37:344][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.07.20-03.03.37:344][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.07.20-03.03.37:344][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.07.20-03.03.37:344][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.07.20-03.03.37:344][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.07.20-03.03.37:357][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.07.20-03.03.37:363][  0]LogInit: Object subsystem initialized
+[2016.07.20-03.03.37:364][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.20-03.03.37:364][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.20-03.03.37:803][  0]LogInit: Computer: MSI
+[2016.07.20-03.03.37:803][  0]LogInit: User: MasterGuy
+[2016.07.20-03.03.37:803][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.07.20-03.03.37:803][  0]LogInit: High frequency timer resolution =2.338342 MHz
+[2016.07.20-03.03.37:803][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.07.20-03.03.37:803][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.20-03.03.37:803][  0]LogMemory: Process Physical Memory: 58.50 MB used, 58.50 MB peak
+[2016.07.20-03.03.37:803][  0]LogMemory: Process Virtual Memory: 57.74 MB used, 57.74 MB peak
+[2016.07.20-03.03.37:803][  0]LogMemory: Physical Memory: 3864.43 MB used, 8110.90 MB total
+[2016.07.20-03.03.37:803][  0]LogMemory: Virtual Memory: 384.84 MB used, 134217728.00 MB total
+[2016.07.20-03.03.37:861][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.20-03.03.38:589][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M  (Feature Level 11_0)
+[2016.07.20-03.03.38:589][  0]LogD3D11RHI: Adapter has 1991MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 1 output[s]
+[2016.07.20-03.03.38:604][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.07.20-03.03.38:604][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 0 output[s]
+[2016.07.20-03.03.38:609][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.07.20-03.03.38:609][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 0 output[s]
+[2016.07.20-03.03.38:609][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.07.20-03.03.38:616][  0]LogD3D11RHI: !Direct3DDevice
+[2016.07.20-03.03.38:616][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.20-03.03.38:638][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.20-03.03.38:652][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Master Guy/Desktop/suppository/GaryTim/Intermediate/Shaders/WorkingDirectory/9292/).
+[2016.07.20-03.03.38:652][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MASTER~1/AppData/Local/Temp/UnrealShaderWorkingDir/D318417D43A5D3799D8E1CB954D7B857/'.
+[2016.07.20-03.03.38:652][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.20-03.03.39:880][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.20-03.03.39:887][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.20-03.03.39:899][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.20-03.03.39:912][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.20-03.03.39:922][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.20-03.03.39:927][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.20-03.03.39:931][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.20-03.03.39:939][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.20-03.03.39:946][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.20-03.03.39:952][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.20-03.03.39:959][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.20-03.03.39:975][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.20-03.03.39:975][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.20-03.03.39:977][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.20-03.03.39:998][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.20-03.03.40:003][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.20-03.03.40:009][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.20-03.03.40:013][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.20-03.03.40:013][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.20-03.03.40:533][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.20-03.03.40:650][  0]LogDerivedDataCache: Loaded boot cache 0.12s 41MB C:/Users/Master Guy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.07.20-03.03.40:650][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Master Guy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.07.20-03.03.40:650][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Master Guy/Desktop/suppository/GaryTim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.20-03.03.40:650][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.20-03.03.40:651][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Master Guy/Desktop/suppository/GaryTim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.20-03.03.40:651][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.20-03.03.40:734][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.20-03.03.40:747][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Master Guy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.20-03.03.41:065][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.20-03.03.41:073][  0]LogContentStreaming: Texture pool size is 0.000000MB
+[2016.07.20-03.03.41:330][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.20-03.03.41:331][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.20-03.03.41:719][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.20-03.03.42:979][  0]UdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2016.07.20-03.03.43:101][  0]LogAssetRegistry: FAssetRegistry took 0.0125 seconds to start up
+[2016.07.20-03.03.43:397][  0]SourceControl: Info Source control is disabled
+[2016.07.20-03.03.43:401][  0]SourceControl: Info Source control is disabled
+[2016.07.20-03.03.43:421][  0]SourceControl: Info Source control is disabled
+[2016.07.20-03.03.43:440][  0]SourceControl: Info Source control is disabled
+[2016.07.20-03.03.43:822][  0]LogObj: 28633 objects as part of root set at end of initial load.
+[2016.07.20-03.03.43:822][  0]LogUObjectAllocator: 6099752 out of 0 bytes used by permanent object pool.
+[2016.07.20-03.03.43:901][  0]LogEngine: Initializing Engine...
+[2016.07.20-03.03.43:910][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.07.20-03.03.43:911][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.20-03.03.44:151][  0]LogAIModule: Creating AISystem for world NewWorld
+[2016.07.20-03.03.44:162][  0]LogInit: XAudio2 using 'Speakers (Plantronics Wireless Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.20-03.03.44:187][  0]LogInit: FAudioDevice initialized.
+[2016.07.20-03.03.44:251][  0]LogDerivedDataCache: Saved boot cache 0.06s 41MB C:/Users/Master Guy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.07.20-03.03.44:259][  0]LogInit: Texture streaming: Enabled
+[2016.07.20-03.03.44:265][  0]LogAnalytics: Creating configured Analytics provider AnalyticsET
+[2016.07.20-03.03.44:265][  0]LogAnalytics: [UEEditor.Rocket.Release] APIServer = http://et2.epicgames.com/ET2/. AppVersion = 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.07.20-03.03.44:265][  0]LogAnalytics: [UEEditor.Rocket.Release] SetUserId 0ff8bdf5463f31a35e2b04b809019cd1|10f330c5297a4636b2afc2f7247333c3|a5587157-775d-4618-9bfb-78982c3b8f98
+[2016.07.20-03.03.44:265][  0]LogAnalytics: [UEEditor.Rocket.Release] AnalyticsET::StartSession
+[2016.07.20-03.03.44:278][  0]LogInit: Transaction tracking system initialized
+[2016.07.20-03.03.44:319][  0]BlueprintLog: New page: Editor Load
+[2016.07.20-03.03.44:433][  0]LocalizationService: Info Localization service is disabled
+[2016.07.20-03.03.44:528][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.07.20-03.03.44:528][  0]LogLinker:Warning: Can't find file '/Game/FirstPersonBP/FirstPersonOverview'
+[2016.07.20-03.03.44:528][  0]LogUObjectGlobals:Warning: Failed to find object 'Class /Game/FirstPersonBP/FirstPersonOverview.FirstPersonOverview_C'
+[2016.07.20-03.03.44:542][  0]LogConsoleResponse:Display: 
+[2016.07.20-03.03.44:715][  0]LogCook:Display: Done creating registry. It took  0.00s.
+[2016.07.20-03.03.44:797][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Master Guy/Desktop/suppository/GaryTim/Content/' took 0.02s
+[2016.07.20-03.03.44:797][  0]SourceControl: Info Source control is disabled
+[2016.07.20-03.03.44:798][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Master Guy/Desktop/suppository/GaryTim/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.20-03.03.44:798][  0]LogEditorServer:Warning: Can't find file '../../../../../../Users/Master Guy/Desktop/suppository/GaryTim/Content/ThirdPersonBP/Maps/ThirdPersonExampleMap.umap'
+[2016.07.20-03.03.44:798][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.20-03.03.44:909][  0]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 111.031ms to complete.
+[2016.07.20-03.03.44:909][  0]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.112
+[2016.07.20-03.03.45:344][  0]LogCollectionManager: Loaded 0 collections in 0.002120 seconds
+[2016.07.20-03.03.45:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Master Guy/Desktop/suppository/GaryTim/Saved/Collections/' took 0.01s
+[2016.07.20-03.03.45:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Master Guy/Desktop/suppository/GaryTim/Content/Developers/MasterGuy/Collections/' took 0.01s
+[2016.07.20-03.03.45:386][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Master Guy/Desktop/suppository/GaryTim/Content/Collections/' took 0.01s
+[2016.07.20-03.03.45:386][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000002 seconds
+[2016.07.20-03.03.45:397][  0]LogContentBrowser: Native class hierarchy populated in 0.0109 seconds. Added 1893 classes and 338 folders.
+[2016.07.20-03.03.45:404][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2016.07.20-03.03.57:802][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0012 seconds. Added 0 classes and 0 folders.
+[2016.07.20-03.03.58:078][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0009 seconds. Added 1 classes and 2 folders.
+[2016.07.20-03.03.59:229][  0]LogCrashTracker: Crashtracker disabled due to settings.
+[2016.07.20-03.03.59:236][  0]LogUObjectGlobals:Warning: Failed to find object 'Class None.'
+[2016.07.20-03.03.59:260][  0]LogLoad: Full Startup: 23.68 seconds (BP compile: 0.01 seconds)
+[2016.07.20-03.03.59:288][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.07.20-03.04.00:301][  0]LogContentStreaming: Texture pool size now 400 MB
+[2016.07.20-03.04.00:898][  0]LogRenderer: Reallocating scene render targets to support 944x384 (Frame:2).
+[2016.07.20-03.04.01:794][  2]LogAssetRegistry: Asset discovery search completed in 18.7044 seconds
+[2016.07.20-03.04.01:794][  2]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000002 seconds (found 0 objects)
+[2016.07.20-03.04.01:794][  2]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000028 seconds (updated 0 objects)
+[2016.07.20-03.05.11:032][998]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.07.20-03.05.11:151][998]Cmd: MAP LOAD FILE="../../../../../../Users/Master Guy/Desktop/suppository/GaryTim/Content/extras/Maps/ThirdPersonExampleMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2016.07.20-03.05.11:151][998]LightingResults: New page: Lighting Build
+[2016.07.20-03.05.11:154][998]LogContentBrowser: Native class hierarchy updated for 'StatsViewer' in 0.0004 seconds. Added 5 classes and 0 folders.
+[2016.07.20-03.05.11:199][998]LoadErrors: New page: Loading map: ThirdPersonExampleMap.umap
+[2016.07.20-03.05.11:199][998]MapCheck: New page: Map Check
+[2016.07.20-03.05.11:199][998]LightingResults: New page: Lighting Build
+[2016.07.20-03.05.11:217][998]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A9CEABEAC0
+[2016.07.20-03.05.11:238][998]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2016.07.20-03.05.11:352][998]Cmd: MAP CHECKDEP NOCLEARLOG
+[2016.07.20-03.05.11:524][998]MapCheck: Info Map check complete: 0 Error(s), 0 Warning(s), took 171.396ms to complete.
+[2016.07.20-03.05.11:524][998]LogFileHelpers: Loading map 'ThirdPersonExampleMap' took 0.374
+[2016.07.20-03.05.14:000][ 83]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.05.14:000][ 83]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.20-03.05.14:000][ 83]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 19, 2016, 1:05:14 PM)
+[2016.07.20-03.05.14:000][ 83]LogPlayLevel: Creating play world package: /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.07.20-03.05.14:678][ 83]LogPlayLevel: PIE: StaticDuplicateObject took: (0.677671s)
+[2016.07.20-03.05.14:680][ 83]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.07.20-03.05.14:681][ 83]LogPlayLevel: PIE: World Init took: (0.002779s)
+[2016.07.20-03.05.14:682][ 83]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.681134s)
+[2016.07.20-03.05.14:682][ 83]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.20-03.05.14:682][ 83]LogActorComponent: UnregisterComponent: (/Engine/Transient.AIPerception_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.20-03.05.14:682][ 83]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.20-03.05.14:709][ 83]LogInit: XAudio2 using 'Speakers (Plantronics Wireless Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.20-03.05.14:721][ 83]LogInit: FAudioDevice initialized.
+[2016.07.20-03.05.15:816][ 83]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.20-03.05.15:832][ 83]LogWorld: Bringing World /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.07.19-20.05.15
+[2016.07.20-03.05.15:832][ 83]LogActor:Warning: GameSession /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.20-03.05.15:832][ 83]LogActor:Warning: GameNetworkManager /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_0 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.20-03.05.15:836][ 83]LogWorld: Bringing up level for play took: 0.017684
+[2016.07.20-03.05.15:853][ 83]PIE: Info Play in editor start time for /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap 2.717
+[2016.07.20-03.05.15:853][ 83]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.05.15:908][ 84]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.15:908][ 84]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.15:909][ 84]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsAI2'
+	BTS_behaviorSelector_C /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AI2controller_C_0.BTComponent.BTS_behaviorSelector_C_1
+	Function /Game/AI/BTS_S/BTS_behaviorSelector.BTS_behaviorSelector_C:ExecuteUbergraph_BTS_behaviorSelector:0034
+[2016.07.20-03.05.15:909][ 84]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsAI2' from node Bind Event to isGuardTrue in graph 'EventGraph' in blueprint BTS_behaviorSelector
+[2016.07.20-03.05.15:909][ 84]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsAI2'
+	BTS_behaviorSelector_C /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AI2controller_C_1.BTComponent.BTS_behaviorSelector_C_2
+	Function /Game/AI/BTS_S/BTS_behaviorSelector.BTS_behaviorSelector_C:ExecuteUbergraph_BTS_behaviorSelector:0034
+[2016.07.20-03.05.15:909][ 84]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsAI2' from node Bind Event to isGuardTrue in graph 'EventGraph' in blueprint BTS_behaviorSelector
+[2016.07.20-03.05.16:208][ 91]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.16:209][ 91]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.16:521][106]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.16:522][106]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.16:840][118]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.16:841][118]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.17:115][132]LogBlueprintUserMessages: [patrolPoints_C_1] movingto
+[2016.07.20-03.05.17:160][134]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.17:161][134]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.17:468][150]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.17:469][150]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.17:715][163]LogBlueprintUserMessages: [patrolPoints_C_1] finished
+[2016.07.20-03.05.17:783][166]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.17:783][166]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.18:093][181]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.18:094][181]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.18:399][197]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.18:399][197]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.18:709][213]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.18:709][213]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.18:726][214]LogBlueprintUserMessages: [patrolPoints_C_1] finished
+[2016.07.20-03.05.19:016][230]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.19:016][230]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.19:335][247]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.19:335][247]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.19:648][264]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.19:648][264]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.05.19:742][268]LogBlueprintUserMessages: [patrolPoints_C_1] finished
+[2016.07.20-03.05.19:892][277]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.05.20:102][277]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.05.20:127][277]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A9CE2AB880
+[2016.07.20-03.05.25:891][524]LogLinker:Warning: Asset '../../../Engine/Content/ArtTools/RenderToTexture/Macros/RenderToTextureMacros.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2016.07.20-03.05.26:620][524]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0007 seconds. Added 107 classes and 0 folders.
+[2016.07.20-03.06.35:916][943]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.06.35:916][943]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.20-03.06.35:916][943]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 19, 2016, 1:06:35 PM)
+[2016.07.20-03.06.35:916][943]LogPlayLevel: Creating play world package: /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.07.20-03.06.35:954][943]LogPlayLevel: PIE: StaticDuplicateObject took: (0.038398s)
+[2016.07.20-03.06.35:956][943]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.07.20-03.06.35:956][943]LogPlayLevel: PIE: World Init took: (0.001217s)
+[2016.07.20-03.06.35:956][943]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.040001s)
+[2016.07.20-03.06.35:956][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.20-03.06.35:957][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_0) Not registered. Aborting.
+[2016.07.20-03.06.35:957][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.AIPerception_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.20-03.06.35:957][943]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.20-03.06.36:020][943]LogInit: XAudio2 using 'Speakers (Plantronics Wireless Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.20-03.06.36:028][943]LogInit: FAudioDevice initialized.
+[2016.07.20-03.06.36:217][943]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.20-03.06.36:241][943]LogWorld: Bringing World /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.07.19-20.06.36
+[2016.07.20-03.06.36:241][943]LogActor:Warning: GameSession /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.20-03.06.36:241][943]LogActor:Warning: GameNetworkManager /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_1 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.20-03.06.36:246][943]LogWorld: Bringing up level for play took: 0.025773
+[2016.07.20-03.06.36:426][943]PIE: Info Play in editor start time for /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap 1.29
+[2016.07.20-03.06.36:426][943]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.06.36:466][944]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.36:466][944]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.36:467][944]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsAI2'
+	BTS_behaviorSelector_C /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AI2controller_C_2.BTComponent.BTS_behaviorSelector_C_4
+	Function /Game/AI/BTS_S/BTS_behaviorSelector.BTS_behaviorSelector_C:ExecuteUbergraph_BTS_behaviorSelector:0034
+[2016.07.20-03.06.36:467][944]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsAI2' from node Bind Event to isGuardTrue in graph 'EventGraph' in blueprint BTS_behaviorSelector
+[2016.07.20-03.06.36:467][944]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsAI2'
+	BTS_behaviorSelector_C /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AI2controller_C_3.BTComponent.BTS_behaviorSelector_C_5
+	Function /Game/AI/BTS_S/BTS_behaviorSelector.BTS_behaviorSelector_C:ExecuteUbergraph_BTS_behaviorSelector:0034
+[2016.07.20-03.06.36:467][944]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsAI2' from node Bind Event to isGuardTrue in graph 'EventGraph' in blueprint BTS_behaviorSelector
+[2016.07.20-03.06.36:789][951]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.36:789][951]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.37:094][959]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.37:094][959]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.37:416][968]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.37:416][968]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.37:519][971]LogBlueprintUserMessages: [patrolPoints_C_4] movingto
+[2016.07.20-03.06.37:737][976]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.37:737][976]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.38:017][985]LogBlueprintUserMessages: [patrolPoints_C_4] finished
+[2016.07.20-03.06.38:050][986]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.38:050][986]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.38:412][994]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.38:413][994]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.38:682][  2]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.38:682][  2]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.38:989][  8]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.38:990][  8]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.39:027][  9]LogBlueprintUserMessages: [patrolPoints_C_4] finished
+[2016.07.20-03.06.39:303][ 15]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.39:303][ 15]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.06.39:346][ 16]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.06.39:569][ 16]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.06.39:646][ 16]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A9D12E8B80
+[2016.07.20-03.08.35:986][704]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.08.35:986][704]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.20-03.08.35:986][704]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 19, 2016, 1:08:35 PM)
+[2016.07.20-03.08.35:986][704]LogPlayLevel: Creating play world package: /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.07.20-03.08.36:016][704]LogPlayLevel: PIE: StaticDuplicateObject took: (0.030197s)
+[2016.07.20-03.08.36:018][704]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.07.20-03.08.36:018][704]LogPlayLevel: PIE: World Init took: (0.001472s)
+[2016.07.20-03.08.36:018][704]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.032002s)
+[2016.07.20-03.08.36:062][704]LogInit: XAudio2 using 'Speakers (Plantronics Wireless Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.20-03.08.36:069][704]LogInit: FAudioDevice initialized.
+[2016.07.20-03.08.36:100][704]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.20-03.08.36:112][704]LogWorld: Bringing World /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.07.19-20.08.36
+[2016.07.20-03.08.36:112][704]LogActor:Warning: GameSession /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.20-03.08.36:112][704]LogActor:Warning: GameNetworkManager /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_2 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.20-03.08.36:113][704]LogWorld: Bringing up level for play took: 0.012054
+[2016.07.20-03.08.36:119][704]PIE: Info Play in editor start time for /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap 0.983
+[2016.07.20-03.08.36:119][704]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.08.36:167][705]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsAI2'
+	BTS_behaviorSelector_C /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AI2controller_C_4.BTComponent.BTS_behaviorSelector_C_7
+	Function /Game/AI/BTS_S/BTS_behaviorSelector.BTS_behaviorSelector_C:ExecuteUbergraph_BTS_behaviorSelector:0034
+[2016.07.20-03.08.36:167][705]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsAI2' from node Bind Event to isGuardTrue in graph 'EventGraph' in blueprint BTS_behaviorSelector
+[2016.07.20-03.08.36:167][705]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsAI2'
+	BTS_behaviorSelector_C /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AI2controller_C_5.BTComponent.BTS_behaviorSelector_C_8
+	Function /Game/AI/BTS_S/BTS_behaviorSelector.BTS_behaviorSelector_C:ExecuteUbergraph_BTS_behaviorSelector:0034
+[2016.07.20-03.08.36:167][705]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsAI2' from node Bind Event to isGuardTrue in graph 'EventGraph' in blueprint BTS_behaviorSelector
+[2016.07.20-03.08.36:232][709]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.36:232][709]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.36:541][727]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.36:541][727]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.36:840][745]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.36:840][745]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.37:141][763]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.37:141][763]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.37:411][779]LogBlueprintUserMessages: [patrolPoints_C_7] movingto
+[2016.07.20-03.08.37:443][781]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.37:443][781]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.37:760][799]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.37:760][799]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.38:044][816]LogBlueprintUserMessages: [patrolPoints_C_7] finished
+[2016.07.20-03.08.38:060][817]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.38:060][817]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.38:359][835]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.38:359][835]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.08.38:599][849]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.08.38:656][849]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.08.38:682][849]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A9EA5E0C20
+[2016.07.20-03.09.42:508][128]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.09.42:508][128]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2016.07.20-03.09.42:508][128]PIE: New page: PIE session: ThirdPersonExampleMap (Jul 19, 2016, 1:09:42 PM)
+[2016.07.20-03.09.42:508][128]LogPlayLevel: Creating play world package: /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap
+[2016.07.20-03.09.42:538][128]LogPlayLevel: PIE: StaticDuplicateObject took: (0.029773s)
+[2016.07.20-03.09.42:539][128]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.07.20-03.09.42:539][128]LogPlayLevel: PIE: World Init took: (0.001264s)
+[2016.07.20-03.09.42:539][128]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap to /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap (0.031326s)
+[2016.07.20-03.09.42:539][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharMoveComp) Not registered. Aborting.
+[2016.07.20-03.09.42:540][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.CharacterMovementComponent_1) Not registered. Aborting.
+[2016.07.20-03.09.42:540][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.AIPerception_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.20-03.09.42:540][128]LogActorComponent: UnregisterComponent: (/Engine/Transient.PawnSensing_GEN_VARIABLE) Not registered. Aborting.
+[2016.07.20-03.09.42:585][128]LogInit: XAudio2 using 'Speakers (Plantronics Wireless Audio)' : 2 channels at 44.1 kHz using 16 bits per sample (channel mask 0x3)
+[2016.07.20-03.09.42:591][128]LogInit: FAudioDevice initialized.
+[2016.07.20-03.09.42:625][128]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.20-03.09.42:634][128]LogWorld: Bringing World /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 60) at 2016.07.19-20.09.42
+[2016.07.20-03.09.42:634][128]LogActor:Warning: GameSession /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameSession_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.20-03.09.42:634][128]LogActor:Warning: GameNetworkManager /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.GameNetworkManager_3 has natively added scene component(s), but none of them were set as the actor's RootComponent - picking one arbitrarily
+[2016.07.20-03.09.42:635][128]LogWorld: Bringing up level for play took: 0.009088
+[2016.07.20-03.09.42:640][128]PIE: Info Play in editor start time for /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap -0.495
+[2016.07.20-03.09.42:640][128]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.09.42:707][129]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsAI2'
+	BTS_behaviorSelector_C /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AI2controller_C_7.BTComponent.BTS_behaviorSelector_C_10
+	Function /Game/AI/BTS_S/BTS_behaviorSelector.BTS_behaviorSelector_C:ExecuteUbergraph_BTS_behaviorSelector:0034
+[2016.07.20-03.09.42:707][129]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsAI2' from node Bind Event to isGuardTrue in graph 'EventGraph' in blueprint BTS_behaviorSelector
+[2016.07.20-03.09.42:707][129]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsAI2'
+	BTS_behaviorSelector_C /Game/extras/Maps/UEDPIE_0_ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AI2controller_C_6.BTComponent.BTS_behaviorSelector_C_11
+	Function /Game/AI/BTS_S/BTS_behaviorSelector.BTS_behaviorSelector_C:ExecuteUbergraph_BTS_behaviorSelector:0034
+[2016.07.20-03.09.42:707][129]PIE:Error: Error Accessed None 'K2Node_DynamicCast_AsAI2' from node Bind Event to isGuardTrue in graph 'EventGraph' in blueprint BTS_behaviorSelector
+[2016.07.20-03.09.42:766][131]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.42:766][131]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.43:071][149]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.43:071][149]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.43:371][167]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.43:371][167]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.43:672][185]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.43:672][185]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.43:898][198]LogBlueprintUserMessages: [patrolPoints_C_11] movingto
+[2016.07.20-03.09.43:981][203]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.43:981][203]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.44:281][221]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.44:281][221]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.44:466][232]LogBlueprintUserMessages: [patrolPoints_C_11] finished
+[2016.07.20-03.09.44:581][239]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.44:582][239]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.44:815][253]LogBlueprintUserMessages: [BTS_wandering_C_11] some shits on fire
+[2016.07.20-03.09.44:815][253]LogBlueprintUserMessages: [BTS_wandering_C_10] some shits on fire
+[2016.07.20-03.09.44:882][257]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.44:882][257]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.45:182][275]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.45:183][275]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.45:487][292]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.45:487][292]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.45:487][292]LogBlueprintUserMessages: [patrolPoints_C_11] finished
+[2016.07.20-03.09.45:787][310]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.45:787][310]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.46:087][328]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.46:087][328]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.46:389][346]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.46:389][346]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.46:474][351]LogBlueprintUserMessages: [patrolPoints_C_11] finished
+[2016.07.20-03.09.46:690][364]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.46:690][364]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.46:990][382]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.46:990][382]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.47:292][400]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.47:292][400]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.47:477][411]LogBlueprintUserMessages: [patrolPoints_C_11] finished
+[2016.07.20-03.09.47:607][418]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.47:607][418]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.47:909][436]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.47:909][436]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.48:211][454]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.48:211][454]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.48:480][470]LogBlueprintUserMessages: [patrolPoints_C_11] finished
+[2016.07.20-03.09.48:520][472]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.48:521][472]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.48:819][490]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.48:819][490]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.48:970][499]LogBlueprintUserMessages: [patrolPoints_C_11] movingto
+[2016.07.20-03.09.49:120][508]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.49:120][508]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.49:421][526]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.49:421][526]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.49:439][527]LogBlueprintUserMessages: [BTS_behaviorSelector_C_11] i see him
+[2016.07.20-03.09.49:722][544]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.49:722][544]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.49:939][557]LogBlueprintUserMessages: [BTS_behaviorSelector_C_11] i see him
+[2016.07.20-03.09.50:023][562]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.50:023][562]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.50:245][575]LogBlueprintUserMessages: [patrolPoints_C_11] fail
+[2016.07.20-03.09.50:329][580]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.50:330][580]LogBlueprintUserMessages: [putoutfire_C_10] fixing
+[2016.07.20-03.09.50:643][598]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.50:944][616]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.51:244][634]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.51:545][651]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.51:846][669]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.52:146][687]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.52:449][705]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.52:756][721]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.53:056][739]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.53:356][757]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.53:356][757]LogBlueprintUserMessages: [BTS_wandering_C_10] fixed
+[2016.07.20-03.09.53:668][775]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.53:968][793]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.54:279][811]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.54:279][811]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.54:329][814]LogBlueprintUserMessages: [BTS_behaviorSelector_C_10] i see him
+[2016.07.20-03.09.54:346][815]LogBlueprintUserMessages: [patrolPoints_C_11] finished
+[2016.07.20-03.09.54:583][829]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.54:583][829]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.54:884][847]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.54:884][847]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.55:185][865]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.55:185][865]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.55:485][883]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.55:485][883]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.55:795][901]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.55:795][901]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.56:097][919]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.56:097][919]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.56:348][934]LogBlueprintUserMessages: [patrolPoints_C_11] fail
+[2016.07.20-03.09.56:401][937]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.56:402][937]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.56:711][955]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.56:711][955]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.57:013][973]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.57:013][973]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.57:316][991]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.57:316][991]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.57:638][  9]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.57:638][  9]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.57:923][ 26]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.57:924][ 26]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.58:223][ 44]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.58:223][ 44]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.58:524][ 62]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.58:524][ 62]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.58:828][ 79]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.58:828][ 79]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.59:127][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.59:127][ 97]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.59:428][115]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.59:428][115]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.59:740][133]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.59:740][133]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.20-03.09.59:858][140]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.09.59:916][140]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel' has LevelScriptBlueprint '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap' with GeneratedClass '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap_C' with ClassGeneratedBy '/Game/extras/Maps/ThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.ThirdPersonExampleMap'
+[2016.07.20-03.09.59:944][140]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A981889120
+[2016.07.20-03.10.03:591][162]Cmd: QUIT_EDITOR
+[2016.07.20-03.10.03:740][162]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.20-03.10.03:801][162]LogExit: Preparing to exit.
+[2016.07.20-03.10.04:234][162]LogExit: Editor shut down
+[2016.07.20-03.10.04:235][162]LogExit: Transaction tracking system shut down
+[2016.07.20-03.10.04:235][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A9CD5BC9A0
+[2016.07.20-03.10.04:235][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A9CE12AFC0
+[2016.07.20-03.10.04:244][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A9EAEC9620
+[2016.07.20-03.10.04:245][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A9CDA220C0
+[2016.07.20-03.10.04:472][162]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000002A9CD34CF40
+[2016.07.20-03.10.04:472][162]LogExit: Object subsystem successfully closed.
+[2016.07.20-03.10.04:493][162]LogD3D11RHI: Shutdown
+[2016.07.20-03.10.04:493][162]LogD3D11RHI: CleanupD3DDevice
+[2016.07.20-03.10.04:584][162]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.20-03.10.04:611][162]LogModuleManager: Shutting down and abandoning module BlueprintGraph (199)
+[2016.07.20-03.10.04:611][162]LogModuleManager: Shutting down and abandoning module StatsViewer (198)
+[2016.07.20-03.10.04:611][162]LogModuleManager: Shutting down and abandoning module CrashTracker (197)
+[2016.07.20-03.10.04:611][162]LogModuleManager: Shutting down and abandoning module SceneOutliner (196)
+[2016.07.20-03.10.04:611][162]LogModuleManager: Shutting down and abandoning module SuperSearch (195)
+[2016.07.20-03.10.04:611][162]LogModuleManager: Shutting down and abandoning module WidgetCarousel (194)
+[2016.07.20-03.10.04:611][162]LogModuleManager: Shutting down and abandoning module AddContentDialog (193)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module EditorWidgets (192)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module CollectionManager (191)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module FoliageEdit (190)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module LandscapeEditor (189)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module ActorPickerMode (188)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module GeometryMode (187)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module TextureAlignMode (186)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module BspMode (185)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module PlacementMode (184)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module AutomationWorker (183)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module CharacterAI (182)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module SmartSnapping (181)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module ViewportSnapping (180)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module LogVisualizer (179)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module GameProjectGeneration (178)
+[2016.07.20-03.10.04:612][162]LogModuleManager: Shutting down and abandoning module IntroTutorials (177)
+[2016.07.20-03.10.04:613][162]LogModuleManager: Shutting down and abandoning module EditorLiveStreaming (176)
+[2016.07.20-03.10.04:613][162]LogModuleManager: Shutting down and abandoning module IOSPlatformEditor (175)
+[2016.07.20-03.10.04:613][162]LogModuleManager: Shutting down and abandoning module HTML5PlatformEditor (174)
+[2016.07.20-03.10.04:613][162]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (173)
+[2016.07.20-03.10.05:615][162]LogModuleManager: Shutting down and abandoning module AndroidPlatformEditor (172)
+[2016.07.20-03.10.05:615][162]LogModuleManager: Shutting down and abandoning module IOSRuntimeSettings (171)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module AndroidRuntimeSettings (170)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module MergeActors (169)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module SizeMap (168)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module TreeMap (167)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module ReferenceViewer (166)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module LocalizationService (165)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module LocalizationDashboard (164)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module HardwareTargeting (163)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module DeviceProfileEditor (162)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module UndoHistory (161)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module GameplayTagsEditor (160)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module UserFeedback (159)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module XmlParser (158)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module Blutility (157)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module ProjectTargetPlatformEditor (156)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module ProjectSettingsViewer (155)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module InputBindingEditor (154)
+[2016.07.20-03.10.05:616][162]LogModuleManager: Shutting down and abandoning module EditorSettingsViewer (153)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module SettingsEditor (152)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module ProjectLauncher (151)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module SessionFrontend (150)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module ProfilerClient (149)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module TargetDeviceServices (148)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module DeviceManager (147)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module AutomationController (146)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module AutomationWindow (145)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module Layers (144)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module ComponentVisualizers (143)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module DetailCustomizations (142)
+[2016.07.20-03.10.05:617][162]LogModuleManager: Shutting down and abandoning module PackagesDialog (141)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module Persona (140)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module Kismet (139)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module GraphEditor (138)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module ClassViewer (137)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module Toolbox (136)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module ModuleUI (135)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module MovieSceneTools (134)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module OutputLog (133)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module GammaUI (132)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module Documentation (131)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (130)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (129)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module AnalyticsET (128)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module Analytics (127)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module AITestSuite (126)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module GameplayDebugger (125)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module AIModule (124)
+[2016.07.20-03.10.05:618][162]LogModuleManager: Shutting down and abandoning module ProfilerService (123)
+[2016.07.20-03.10.05:733][162]LogModuleManager: Shutting down and abandoning module TaskGraph (122)
+[2016.07.20-03.10.05:733][162]LogModuleManager: Shutting down and abandoning module SlateRemote (121)
+[2016.07.20-03.10.05:733][162]LogModuleManager: Shutting down and abandoning module SteamVRController (120)
+[2016.07.20-03.10.05:733][162]LogModuleManager: Shutting down and abandoning module SteamVR (119)
+[2016.07.20-03.10.05:733][162]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (118)
+[2016.07.20-03.10.05:733][162]LogModuleManager: Shutting down and abandoning module OculusLibrary (117)
+[2016.07.20-03.10.05:733][162]LogModuleManager: Shutting down and abandoning module OculusInput (116)
+[2016.07.20-03.10.05:733][162]LogModuleManager: Shutting down and abandoning module LeapMotionController (115)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (114)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module CableComponent (113)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (112)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module MessagingDebugger (111)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module MediaPlayerEditor (110)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module HTML5Networking (109)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module SpeedTreeImporter (108)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module PluginBrowser (107)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module EpicSurvey (106)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module DesktopPlatform (105)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (104)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module UObjectPlugin (103)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (102)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (101)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module SourceControl (100)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module GitSourceControl (99)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeEditor (98)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module PaperTiledImporter (97)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module PaperSpriteSheetImporter (96)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module MeshPaint (95)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module SlateReflector (94)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module HotReload (93)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module MainFrame (92)
+[2016.07.20-03.10.05:749][162]LogModuleManager: Shutting down and abandoning module LevelEditor (91)
+[2016.07.20-03.10.05:750][162]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (90)
+[2016.07.20-03.10.05:751][162]LogModuleManager: Shutting down and abandoning module AssetRegistry (89)
+[2016.07.20-03.10.05:820][162]LogModuleManager: Shutting down and abandoning module ContentBrowser (88)
+[2016.07.20-03.10.05:821][162]LogModuleManager: Shutting down and abandoning module Paper2DEditor (87)
+[2016.07.20-03.10.05:822][162]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.07.20-03.10.05:922][162]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.07.20-03.10.05:922][162]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.07.20-03.10.05:923][162]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.07.20-03.10.05:934][162]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.07.20-03.10.05:934][162]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.07.20-03.10.05:935][162]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.07.20-03.10.05:935][162]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.07.20-03.10.05:935][162]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.07.20-03.10.05:935][162]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.07.20-03.10.05:935][162]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.07.20-03.10.05:935][162]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.07.20-03.10.05:935][162]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.07.20-03.10.05:935][162]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.07.20-03.10.05:935][162]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.07.20-03.10.05:936][162]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.07.20-03.10.05:936][162]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.07.20-03.10.05:936][162]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.07.20-03.10.05:937][162]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.07.20-03.10.05:937][162]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.07.20-03.10.05:951][162]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.07.20-03.10.05:951][162]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.07.20-03.10.05:951][162]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.07.20-03.10.05:951][162]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.07.20-03.10.05:951][162]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.07.20-03.10.05:951][162]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.07.20-03.10.05:951][162]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.07.20-03.10.05:951][162]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.07.20-03.10.05:952][162]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.07.20-03.10.05:952][162]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.07.20-03.10.05:989][162]LogDerivedDataCache: Shutdown
+[2016.07.20-03.10.05:989][162]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.07.20-03.10.05:989][162]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.07.20-03.10.05:989][162]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.07.20-03.10.05:989][162]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.20-03.10.05:990][162]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.20-03.10.05:991][162]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.20-03.10.05:991][162]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.20-03.10.05:991][162]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.20-03.10.05:991][162]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.20-03.10.05:991][162]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.20-03.10.05:991][162]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.20-03.10.05:991][162]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.20-03.10.05:991][162]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.20-03.10.05:991][162]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.20-03.10.06:993][162]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.20-03.10.06:993][162]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.20-03.10.06:993][162]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.20-03.10.06:993][162]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.20-03.10.06:994][162]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.20-03.10.06:994][162]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.20-03.10.06:994][162]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.20-03.10.06:997][162]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.20-03.10.06:997][162]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.20-03.10.06:997][162]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.20-03.10.06:997][162]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.20-03.10.06:997][162]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.20-03.10.06:997][162]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.20-03.10.06:997][162]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.20-03.10.06:997][162]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.20-03.10.06:997][162]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.20-03.10.06:997][162]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.20-03.10.06:999][162]LogExit: Exiting.
+[2016.07.20-03.10.07:000][162]Log file closed, 07/19/16 20:10:07

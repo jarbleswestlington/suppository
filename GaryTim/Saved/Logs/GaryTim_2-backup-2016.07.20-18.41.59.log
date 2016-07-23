@@ -1,0 +1,671 @@
+﻿[2016.07.21-01.38.23:012][  0]Log file open, 07/20/16 18:38:23
+[2016.07.21-01.38.23:012][  0]LogInit:Display: Running engine for game: GaryTim
+[2016.07.21-01.38.23:012][  0]LogPlatformFile: Not using cached read wrapper
+[2016.07.21-01.38.23:012][  0]LogInit:Display: RandInit(-522189307) SRandInit(-522189306).
+[2016.07.21-01.38.23:012][  0]LogTaskGraph: Started task graph with 4 named threads and 7 total threads.
+[2016.07.21-01.38.23:012][  0]LogStats: Stats thread started at 0.087756
+[2016.07.21-01.38.23:012][  0]LogInit: Version: 4.10.4-2872498+++depot+UE4-Releases+4.10
+[2016.07.21-01.38.23:012][  0]LogInit: API Version: 2758231
+[2016.07.21-01.38.23:012][  0]LogInit: Compiled (64-bit): Feb 18 2016 15:47:04
+[2016.07.21-01.38.23:012][  0]LogInit: Compiled with Visual C++: 19.00.23026.00
+[2016.07.21-01.38.23:012][  0]LogInit: Build Configuration: Development
+[2016.07.21-01.38.23:012][  0]LogInit: Branch Name: ++depot+UE4-Releases+4.10
+[2016.07.21-01.38.23:012][  0]LogInit: Command line:  /Temp/Autosaves/Game/extras/Maps/UEDPCThirdPersonExampleMap -game -PIEVIACONSOLE -ResX=1280 -ResY=720  -Multiprocess 
+[2016.07.21-01.38.23:012][  0]LogInit: Base directory: C:/Program Files (x86)/Epic Games/4.10/Engine/Binaries/Win64/
+[2016.07.21-01.38.23:012][  0]LogInit: Rocket: 1
+[2016.07.21-01.38.23:019][  0]LogInit: Using libcurl 7.41.0
+[2016.07.21-01.38.23:019][  0]LogInit:  - built for x86_64-pc-win32
+[2016.07.21-01.38.23:019][  0]LogInit:  - supports SSL with WinSSL
+[2016.07.21-01.38.23:019][  0]LogInit:  - other features:
+[2016.07.21-01.38.23:019][  0]LogInit:      CURL_VERSION_SSL
+[2016.07.21-01.38.23:019][  0]LogInit:      CURL_VERSION_IPV6
+[2016.07.21-01.38.23:019][  0]LogInit:      CURL_VERSION_ASYNCHDNS
+[2016.07.21-01.38.23:019][  0]LogInit:      CURL_VERSION_LARGEFILE
+[2016.07.21-01.38.23:019][  0]LogInit:      CURL_VERSION_IDN
+[2016.07.21-01.38.23:020][  0]LogInit:  CurlRequestOptions (configurable via config and command line):
+[2016.07.21-01.38.23:020][  0]LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+[2016.07.21-01.38.23:020][  0]LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+[2016.07.21-01.38.23:020][  0]LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+[2016.07.21-01.38.23:020][  0]LogInit:  - CertBundlePath = nullptr  - Libcurl will use whatever was configured at build time.
+[2016.07.21-01.38.23:026][  0]LogInit: Presizing for 0 objects not considered by GC, pre-allocating 0 bytes.
+[2016.07.21-01.38.23:032][  0]LogInit: Object subsystem initialized
+[2016.07.21-01.38.23:033][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.21-01.38.23:033][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2016.07.21-01.38.23:036][  0]LogInit: Computer: MSI
+[2016.07.21-01.38.23:036][  0]LogInit: User: MasterGuy
+[2016.07.21-01.38.23:036][  0]LogInit: CPU Page size=4096, Cores=4
+[2016.07.21-01.38.23:036][  0]LogInit: High frequency timer resolution =2.338342 MHz
+[2016.07.21-01.38.23:036][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2016.07.21-01.38.23:036][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.21-01.38.23:036][  0]LogMemory: Process Physical Memory: 58.40 MB used, 58.40 MB peak
+[2016.07.21-01.38.23:036][  0]LogMemory: Process Virtual Memory: 57.79 MB used, 57.79 MB peak
+[2016.07.21-01.38.23:036][  0]LogMemory: Physical Memory: 4554.98 MB used, 8110.90 MB total
+[2016.07.21-01.38.23:036][  0]LogMemory: Virtual Memory: 384.78 MB used, 134217728.00 MB total
+[2016.07.21-01.38.23:080][  0]LogTextLocalizationManager: No specific translations for ('en-US') exist, so ('en') translations will be used.
+[2016.07.21-01.38.23:477][  0]LogD3D11RHI: Found D3D11 adapter 0: NVIDIA GeForce GTX 765M  (Feature Level 11_0)
+[2016.07.21-01.38.23:477][  0]LogD3D11RHI: Adapter has 1991MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 1 output[s]
+[2016.07.21-01.38.23:483][  0]LogD3D11RHI: Found D3D11 adapter 1: Intel(R) HD Graphics 4600 (Feature Level 11_0)
+[2016.07.21-01.38.23:483][  0]LogD3D11RHI: Adapter has 112MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 0 output[s]
+[2016.07.21-01.38.23:484][  0]LogD3D11RHI: Found D3D11 adapter 2: Microsoft Basic Render Driver (Feature Level 11_0)
+[2016.07.21-01.38.23:484][  0]LogD3D11RHI: Adapter has 0MB of dedicated video memory, 0MB of dedicated system memory, and 4055MB of shared system memory, 0 output[s]
+[2016.07.21-01.38.23:484][  0]LogD3D11RHI: Chosen D3D11 Adapter Id = 0
+[2016.07.21-01.38.23:489][  0]LogD3D11RHI: !Direct3DDevice
+[2016.07.21-01.38.23:489][  0]LogRHI: Texture pool is 1361 MB (70% of 1945 MB)
+[2016.07.21-01.38.23:501][  0]LogD3D11RHI: Async texture creation enabled
+[2016.07.21-01.38.23:516][  0]LogShaderCompilers: Guid format shader working directory is -13 characters bigger than the processId version (../../../../../../Users/Master Guy/Desktop/suppository/GaryTim/Intermediate/Shaders/WorkingDirectory/8020/).
+[2016.07.21-01.38.23:516][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/MASTER~1/AppData/Local/Temp/UnrealShaderWorkingDir/79E432054DD988374E6E7792D5E2A518/'.
+[2016.07.21-01.38.23:516][  0]LogShaderCompilers:Display: Using Local Shader Compiler.
+[2016.07.21-01.38.24:311][  0]LogTemp:Display: Loaded TP AllDesktopTargetPlatform
+[2016.07.21-01.38.24:315][  0]LogTemp:Display: Loaded TP WindowsClientTargetPlatform
+[2016.07.21-01.38.24:320][  0]LogTemp:Display: Loaded TP WindowsNoEditorTargetPlatform
+[2016.07.21-01.38.24:325][  0]LogTemp:Display: Loaded TP WindowsServerTargetPlatform
+[2016.07.21-01.38.24:329][  0]LogTemp:Display: Loaded TP WindowsTargetPlatform
+[2016.07.21-01.38.24:332][  0]LogTemp:Display: Loaded TP AndroidTargetPlatform
+[2016.07.21-01.38.24:335][  0]LogTemp:Display: Loaded TP Android_ASTCTargetPlatform
+[2016.07.21-01.38.24:338][  0]LogTemp:Display: Loaded TP Android_ATCTargetPlatform
+[2016.07.21-01.38.24:342][  0]LogTemp:Display: Loaded TP Android_DXTTargetPlatform
+[2016.07.21-01.38.24:345][  0]LogTemp:Display: Loaded TP Android_ETC1TargetPlatform
+[2016.07.21-01.38.24:349][  0]LogTemp:Display: Loaded TP Android_ETC2TargetPlatform
+[2016.07.21-01.38.24:355][  0]LogTemp:Display: Loaded TP Android_MultiTargetPlatform
+[2016.07.21-01.38.24:355][  0]LogTemp:Display: Loaded TP Android_PVRTCTargetPlatform
+[2016.07.21-01.38.24:356][  0]LogTemp:Display: Loaded TP HTML5TargetPlatform
+[2016.07.21-01.38.24:373][  0]LogTemp:Display: Loaded TP IOSTargetPlatform
+[2016.07.21-01.38.24:376][  0]LogTemp:Display: Loaded TP LinuxNoEditorTargetPlatform
+[2016.07.21-01.38.24:379][  0]LogTemp:Display: Loaded TP LinuxServerTargetPlatform
+[2016.07.21-01.38.24:383][  0]LogTemp:Display: Loaded TP LinuxTargetPlatform
+[2016.07.21-01.38.24:383][  0]LogTargetPlatformManager:Display: Building Assets For Windows
+[2016.07.21-01.38.24:474][  0]LogDerivedDataCache:Display: Max Cache Size: 512 MB
+[2016.07.21-01.38.24:530][  0]LogDerivedDataCache: Loaded boot cache 0.06s 41MB C:/Users/Master Guy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc.
+[2016.07.21-01.38.24:530][  0]LogDerivedDataCache:Display: Loaded Boot cache: C:/Users/Master Guy/AppData/Local/UnrealEngine/4.10/DerivedDataCache/Boot.ddc
+[2016.07.21-01.38.24:530][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Master Guy/Desktop/suppository/GaryTim/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2016.07.21-01.38.24:530][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2016.07.21-01.38.24:530][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Master Guy/Desktop/suppository/GaryTim/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2016.07.21-01.38.24:530][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2016.07.21-01.38.24:592][  0]LogDerivedDataCache:Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2016.07.21-01.38.24:604][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Master Guy/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2016.07.21-01.38.24:798][  0]LogInit: Selected Device Profile: [Windows]
+[2016.07.21-01.38.24:801][  0]LogContentStreaming: Texture pool size is 1000.000000MB
+[2016.07.21-01.38.24:898][  0]LogMeshUtilities: No automatic mesh reduction module available
+[2016.07.21-01.38.24:898][  0]LogMeshUtilities: No automatic mesh merging module available
+[2016.07.21-01.38.25:089][  0]LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+[2016.07.21-01.38.25:286][  0]LogWindowsMoviePlayer: Unable to load movie: ../../../../../../Users/Master Guy/Desktop/suppository/GaryTim/Content/Movies/Default_Startup.mp4
+[2016.07.21-01.38.25:420][  0]SourceControl: Info Source control is disabled
+[2016.07.21-01.38.25:420][  0]SourceControl: Info Source control is disabled
+[2016.07.21-01.38.25:439][  0]SourceControl: Info Source control is disabled
+[2016.07.21-01.38.25:712][  0]LogObj: 27935 objects as part of root set at end of initial load.
+[2016.07.21-01.38.25:712][  0]LogUObjectAllocator: 5830072 out of 0 bytes used by permanent object pool.
+[2016.07.21-01.38.25:769][  0]LogEngine: Initializing Engine...
+[2016.07.21-01.38.25:776][  0]LogHMD: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.07.21-01.38.25:777][  0]LogHMD: SteamVR failed to initialize.  Err: 110
+[2016.07.21-01.38.25:881][  0]LogInit: XAudio2 using 'Speakers (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2016.07.21-01.38.25:896][  0]LogInit: FAudioDevice initialized.
+[2016.07.21-01.38.25:901][  0]LogInit: Texture streaming: Enabled
+[2016.07.21-01.38.25:967][  0]LogNet: Browse: /Temp/Autosaves/Game/extras/Maps/UEDPCThirdPersonExampleMap?Name=Player
+[2016.07.21-01.38.25:967][  0]LogLoad: LoadMap: /Temp/Autosaves/Game/extras/Maps/UEDPCThirdPersonExampleMap?Name=Player
+[2016.07.21-01.38.25:977][  0]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C526DBDD00
+[2016.07.21-01.38.25:986][  0]LogMemory: Platform Memory Stats for Windows
+[2016.07.21-01.38.25:986][  0]LogMemory: Process Physical Memory: 396.78 MB used, 396.78 MB peak
+[2016.07.21-01.38.25:986][  0]LogMemory: Process Virtual Memory: 447.40 MB used, 447.40 MB peak
+[2016.07.21-01.38.25:986][  0]LogMemory: Physical Memory: 4851.73 MB used, 8110.90 MB total
+[2016.07.21-01.38.25:986][  0]LogMemory: Virtual Memory: 999.74 MB used, 134217728.00 MB total
+[2016.07.21-01.38.25:986][  0]LogMemory: 
+[2016.07.21-01.38.25:986][  0]Allocator Stats for TBB: (not implemented)
+[2016.07.21-01.38.27:110][  0]LogAIModule: Creating AISystem for world ThirdPersonExampleMap
+[2016.07.21-01.38.27:110][  0]LogWorld: Game class is 'ThirdPersonGameMode_C'
+[2016.07.21-01.38.27:122][  0]LogWorld: Bringing World /Temp/Autosaves/Game/extras/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap up for play (max tick rate 0) at 2016.07.20-18.38.27
+[2016.07.21-01.38.27:125][  0]LogWorld: Bringing up level for play took: 0.013851
+[2016.07.21-01.38.27:129][  0]LogInit:Display: Game Engine Initialized.
+[2016.07.21-01.38.27:349][  0]LogLoad: Full Startup: 4.63 seconds (BP compile: 0.37 seconds)
+[2016.07.21-01.38.27:369][  0]LogOcInput: Can't find Oculus library dev build: is proper Runtime installed? Version: 0.8.0.0
+[2016.07.21-01.38.27:432][  0]LogRenderer: Reallocating scene render targets to support 128x128 (Frame:1).
+[2016.07.21-01.38.27:563][  1]LogRenderer: Reallocating scene render targets to support 1280x720 (Frame:2).
+[2016.07.21-01.38.27:565][  1]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsAI2'
+	BTS_behaviorSelector_C /Temp/Autosaves/Game/extras/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AI2controller_C_0.BTComponent.BTS_behaviorSelector_C_1
+	Function /Game/AI/BTS_S/BTS_behaviorSelector.BTS_behaviorSelector_C:ExecuteUbergraph_BTS_behaviorSelector:0031
+[2016.07.21-01.38.27:565][  1]LogScript:Warning: Accessed None 'K2Node_DynamicCast_AsAI2'
+	BTS_behaviorSelector_C /Temp/Autosaves/Game/extras/Maps/UEDPCThirdPersonExampleMap.ThirdPersonExampleMap:PersistentLevel.AI2controller_C_1.BTComponent.BTS_behaviorSelector_C_2
+	Function /Game/AI/BTS_S/BTS_behaviorSelector.BTS_behaviorSelector_C:ExecuteUbergraph_BTS_behaviorSelector:0031
+[2016.07.21-01.38.27:678][  5]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.27:678][  5]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.27:984][ 24]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.27:984][ 24]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.28:291][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.28:291][ 43]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.28:601][ 62]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.28:601][ 62]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.28:909][ 81]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.28:909][ 81]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.29:214][100]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.29:214][100]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.29:328][107]LogBlueprintUserMessages: [patrolPoints_C_1] movingto
+[2016.07.21-01.38.29:521][119]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.29:521][119]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.29:827][138]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.29:827][138]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.30:134][157]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.30:134][157]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.30:441][176]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.30:441][176]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.30:441][176]LogBlueprintUserMessages: [patrolPoints_C_1] finished
+[2016.07.21-01.38.30:747][194]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.30:747][194]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.31:053][213]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.31:053][213]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.31:360][232]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.31:360][232]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.31:441][237]LogBlueprintUserMessages: [patrolPoints_C_1] finished
+[2016.07.21-01.38.31:666][251]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.31:666][251]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.31:973][270]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.31:973][270]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.32:279][289]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.32:279][289]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.32:441][299]LogBlueprintUserMessages: [patrolPoints_C_1] finished
+[2016.07.21-01.38.32:586][308]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.32:586][308]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.32:892][327]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.32:892][327]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.33:199][346]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.33:199][346]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.33:441][361]LogBlueprintUserMessages: [patrolPoints_C_1] finished
+[2016.07.21-01.38.33:507][365]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.33:507][365]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.33:813][384]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.33:813][384]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.34:119][403]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.34:119][403]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.34:426][422]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.34:426][422]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.34:442][423]LogBlueprintUserMessages: [patrolPoints_C_1] finished
+[2016.07.21-01.38.34:733][441]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.34:733][441]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.34:927][453]LogBlueprintUserMessages: [patrolPoints_C_1] movingto
+[2016.07.21-01.38.35:040][460]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.35:040][460]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.35:346][479]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.35:346][479]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.35:652][498]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.35:652][498]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.35:653][498]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.35:958][517]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.35:959][517]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.36:153][529]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.36:265][536]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.36:265][536]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.36:571][555]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.36:571][555]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.36:573][555]LogBlueprintUserMessages: [patrolPoints_C_1] fail
+[2016.07.21-01.38.36:657][560]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.36:880][574]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.36:880][574]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.37:155][591]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.37:187][593]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.37:187][593]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.37:493][612]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.37:493][612]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.37:655][622]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.37:799][631]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.37:799][631]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.38:107][650]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.38:107][650]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.38:156][653]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.38:412][669]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.38:412][669]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.38:655][684]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.38:719][688]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.38:719][688]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.39:025][707]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.39:025][707]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.39:156][715]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.39:332][726]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.39:332][726]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.39:639][744]LogBlueprintUserMessages: [patrolPoints_C_1] fail
+[2016.07.21-01.38.39:642][745]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.39:642][745]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.39:658][746]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.39:948][764]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.39:948][764]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.40:158][777]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.40:255][783]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.40:255][783]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.40:561][802]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.40:561][802]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.40:661][808]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.40:867][821]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.40:868][821]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.41:159][839]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.41:174][840]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.41:174][840]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.41:480][859]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.41:480][859]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.41:788][878]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.41:788][878]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.42:093][897]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.42:093][897]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.42:159][901]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.42:400][916]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.42:400][916]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.42:659][932]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.42:707][935]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.42:707][935]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.42:757][938]LogBlueprintUserMessages: [patrolPoints_C_1] fail
+[2016.07.21-01.38.43:013][954]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.43:013][954]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.43:159][963]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.43:319][973]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.43:319][973]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.43:626][992]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.43:626][992]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.43:659][994]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.43:932][ 11]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.43:932][ 11]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.44:159][ 25]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.44:240][ 30]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.44:240][ 30]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.44:545][ 49]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.44:545][ 49]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.44:659][ 56]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.44:851][ 68]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.44:851][ 68]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.45:158][ 87]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.45:158][ 87]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.45:464][106]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.45:464][106]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.45:771][125]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.45:771][125]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.45:820][128]LogBlueprintUserMessages: [patrolPoints_C_1] fail
+[2016.07.21-01.38.46:077][144]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.46:077][144]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.46:160][149]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.46:383][163]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.46:383][163]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.46:659][180]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.46:690][182]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.46:690][182]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.46:996][201]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.46:996][201]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.47:159][211]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.47:303][220]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.47:303][220]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.47:610][239]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.47:610][239]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.47:659][242]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.47:916][257]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.47:916][257]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.48:160][272]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.48:223][276]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.48:223][276]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.48:529][295]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.48:529][295]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.48:659][303]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.48:836][314]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.48:836][314]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.48:966][322]LogBlueprintUserMessages: [patrolPoints_C_1] fail
+[2016.07.21-01.38.49:142][333]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.49:142][333]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.49:160][334]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.49:274][341]LogBlueprintUserMessages: [BTS_behaviorSelector_C_2] i see him
+[2016.07.21-01.38.49:449][352]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.49:449][352]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.49:659][365]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.49:769][371]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.49:769][371]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.49:775][372]LogBlueprintUserMessages: [BTS_behaviorSelector_C_2] i see him
+[2016.07.21-01.38.50:063][390]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.50:063][390]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.50:161][396]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.50:274][403]LogBlueprintUserMessages: [BTS_behaviorSelector_C_2] i see him
+[2016.07.21-01.38.50:370][409]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.50:370][409]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.50:661][427]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.50:676][428]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.50:676][428]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.50:773][434]LogBlueprintUserMessages: [BTS_behaviorSelector_C_2] i see him
+[2016.07.21-01.38.50:982][447]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.50:982][447]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.51:290][466]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.51:290][466]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.51:595][485]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.51:595][485]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.51:902][504]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.51:902][504]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.52:209][523]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.52:209][523]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.52:515][542]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.52:515][542]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.52:822][561]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.52:822][561]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.52:854][563]LogBlueprintUserMessages: [AI2_C_2] lost sight
+[2016.07.21-01.38.52:855][563]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.53:127][580]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.53:128][580]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.53:434][599]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.53:434][599]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.53:740][618]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.53:740][618]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.54:047][637]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.54:047][637]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.54:161][644]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.54:354][656]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.54:354][656]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.54:660][675]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.54:660][675]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.54:661][675]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.54:969][693]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.54:969][693]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.55:163][705]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.55:275][712]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.55:275][712]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.55:581][731]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.55:582][731]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.55:663][736]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.55:888][750]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.55:888][750]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.56:130][765]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.56:163][767]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.56:194][769]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.56:194][769]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.56:243][772]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.56:357][779]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.56:470][786]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.56:501][788]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.56:501][788]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.56:582][793]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.56:663][798]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.56:694][800]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.56:808][807]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.56:808][807]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.56:808][807]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.56:921][814]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.57:033][821]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.57:114][826]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.57:114][826]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.57:146][828]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.57:163][829]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.57:259][835]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.57:373][842]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.57:421][845]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.57:421][845]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.57:485][849]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.57:598][856]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.57:663][860]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.57:710][863]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.57:727][864]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.57:727][864]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.57:824][870]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.57:938][877]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.58:033][883]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.58:033][883]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.58:049][884]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.58:162][891]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.58:163][891]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.58:275][898]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.58:340][902]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.58:340][902]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.58:390][905]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.58:501][912]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.58:614][919]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.58:646][921]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.58:646][921]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.58:663][922]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.58:727][926]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.58:840][933]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.58:953][940]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.58:953][940]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.58:954][940]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.59:065][947]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.59:163][953]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.59:178][954]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.59:259][959]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.59:259][959]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.59:292][961]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.59:407][968]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.59:517][975]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.59:565][978]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.59:565][978]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.59:631][982]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.59:663][984]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.38.59:743][989]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.59:857][996]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.38.59:873][997]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.59:873][997]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.38.59:969][  3]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.00:082][ 10]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.00:163][ 15]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.00:178][ 16]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.00:179][ 16]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.00:195][ 17]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.00:308][ 24]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.00:423][ 31]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.00:485][ 35]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.00:485][ 35]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.00:534][ 38]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.00:646][ 45]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.00:663][ 46]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.00:760][ 52]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.00:791][ 54]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.00:791][ 54]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.00:873][ 59]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.00:986][ 66]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.01:098][ 73]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.01:098][ 73]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.01:098][ 73]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.01:163][ 77]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.01:211][ 80]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.01:324][ 87]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.01:406][ 92]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.01:406][ 92]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.01:438][ 94]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.01:550][101]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.01:663][108]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.01:664][108]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.01:710][111]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.01:711][111]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.01:776][115]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.01:890][122]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.02:004][129]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.02:019][130]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.02:020][130]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.02:116][136]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.02:165][139]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.02:229][143]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.02:326][149]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.02:326][149]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.02:342][150]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.02:456][157]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.02:568][164]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.02:632][168]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.02:632][168]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.02:665][170]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.02:681][171]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.02:794][178]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.02:907][185]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.02:939][187]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.02:939][187]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.03:021][192]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.03:133][199]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.03:166][201]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.03:246][206]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.03:246][206]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.03:247][206]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.03:359][213]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.03:474][220]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.03:553][225]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.03:553][225]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.03:585][227]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.03:666][232]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.03:698][234]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.03:811][241]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.03:859][244]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.03:859][244]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.03:924][248]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.04:037][255]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.04:150][262]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.04:165][263]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.04:165][263]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.04:166][263]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.04:262][269]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.04:376][276]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.04:472][282]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.04:473][282]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.04:490][283]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.04:601][290]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.04:666][294]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.04:714][297]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.04:778][301]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.04:778][301]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.04:827][304]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.04:940][311]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.05:054][318]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.05:084][320]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.05:085][320]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.05:166][325]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.05:167][325]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.05:279][332]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.05:391][339]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.05:392][339]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.05:392][339]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.05:506][346]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.05:618][353]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.05:666][356]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.05:697][358]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.05:698][358]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.05:730][360]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.05:843][367]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.05:958][374]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.06:004][377]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.06:004][377]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.06:069][381]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.06:166][387]LogBlueprintUserMessages: [BTS_behaviorSelector_C_1] i see him
+[2016.07.21-01.39.06:182][388]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.06:295][395]LogBlueprintUserMessages: [AI2_C_3] lost sight
+[2016.07.21-01.39.06:310][396]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.06:311][396]LogScript:Warning: Attempted to get an item from array CallFunc_GetOverlappingActors_OverlappingActors out of bounds [0/0]!
+[2016.07.21-01.39.06:529][402]LogWindowsTextInputMethodSystem:Display: IME system now deactivated.
+[2016.07.21-01.39.06:532][402]LogEngine: All Windows Closed
+[2016.07.21-01.39.06:532][402]LogWindows: FPlatformMisc::RequestExit(0)
+[2016.07.21-01.39.06:791][403]LogExit: Preparing to exit.
+[2016.07.21-01.39.06:905][403]LogExit: Game engine shut down
+[2016.07.21-01.39.06:907][403]LogParticles: Destroying 0 GPU particle simulations for FXSystem 0x000001C5332953A0
+[2016.07.21-01.39.07:084][403]LogExit: Object subsystem successfully closed.
+[2016.07.21-01.39.07:104][403]LogD3D11RHI: Shutdown
+[2016.07.21-01.39.07:104][403]LogD3D11RHI: CleanupD3DDevice
+[2016.07.21-01.39.07:185][403]LogD3D11RHI: ~FD3D11DynamicRHI
+[2016.07.21-01.39.07:200][403]LogModuleManager: Shutting down and abandoning module AndroidDeviceDetection (117)
+[2016.07.21-01.39.07:372][403]LogModuleManager: Shutting down and abandoning module AutomationController (116)
+[2016.07.21-01.39.07:372][403]LogModuleManager: Shutting down and abandoning module AutomationWorker (115)
+[2016.07.21-01.39.07:372][403]LogModuleManager: Shutting down and abandoning module CharacterAI (114)
+[2016.07.21-01.39.07:372][403]LogModuleManager: Shutting down and abandoning module AITestSuite (113)
+[2016.07.21-01.39.07:372][403]LogModuleManager: Shutting down and abandoning module GameplayDebugger (112)
+[2016.07.21-01.39.07:372][403]LogModuleManager: Shutting down and abandoning module AIModule (111)
+[2016.07.21-01.39.07:372][403]LogModuleManager: Shutting down and abandoning module MovieSceneCapture (110)
+[2016.07.21-01.39.07:372][403]LogModuleManager: Shutting down and abandoning module GameLiveStreaming (109)
+[2016.07.21-01.39.07:373][403]LogModuleManager: Shutting down and abandoning module StreamingPauseRendering (108)
+[2016.07.21-01.39.07:373][403]LogModuleManager: Shutting down and abandoning module ProfilerService (107)
+[2016.07.21-01.39.07:515][403]LogModuleManager: Shutting down and abandoning module TaskGraph (106)
+[2016.07.21-01.39.07:515][403]LogModuleManager: Shutting down and abandoning module SlateRemote (105)
+[2016.07.21-01.39.07:515][403]LogModuleManager: Shutting down and abandoning module SteamVRController (104)
+[2016.07.21-01.39.07:515][403]LogModuleManager: Shutting down and abandoning module SteamVR (103)
+[2016.07.21-01.39.07:515][403]LogModuleManager: Shutting down and abandoning module ProceduralMeshComponent (102)
+[2016.07.21-01.39.07:515][403]LogModuleManager: Shutting down and abandoning module OculusLibrary (101)
+[2016.07.21-01.39.07:515][403]LogModuleManager: Shutting down and abandoning module OculusInput (100)
+[2016.07.21-01.39.07:515][403]LogModuleManager: Shutting down and abandoning module LeapMotionController (99)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module CustomMeshComponent (98)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module CableComponent (97)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module ArchVisCharacter (96)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module HTML5Networking (95)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module DesktopPlatform (94)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module DirectoryWatcher (93)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module HotReload (92)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module VisualStudioSourceCodeAccess (91)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module UObjectPlugin (90)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module SubversionSourceControl (89)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module SourceControl (88)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module PerforceSourceControl (87)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module UdpMessaging (86)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module LightPropagationVolumeRuntime (85)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module Paper2D (84)
+[2016.07.21-01.39.07:534][403]LogModuleManager: Shutting down and abandoning module WindowsMoviePlayer (83)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module Media (82)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module WmfMedia (81)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module OnlineBlueprintSupport (80)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module GameplayTasksEditor (79)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module PropertyEditor (78)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module BehaviorTreeEditor (77)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module FunctionalTesting (76)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module CollisionAnalyzer (75)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module WorkspaceMenuStructure (74)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module MessageLog (73)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module Sequencer (72)
+[2016.07.21-01.39.07:538][403]LogModuleManager: Shutting down and abandoning module AssetTools (71)
+[2016.07.21-01.39.07:539][403]LogModuleManager: Shutting down and abandoning module UMGEditor (70)
+[2016.07.21-01.39.07:539][403]LogModuleManager: Shutting down and abandoning module UMG (69)
+[2016.07.21-01.39.07:539][403]LogModuleManager: Shutting down and abandoning module Slate (68)
+[2016.07.21-01.39.07:539][403]LogModuleManager: Shutting down and abandoning module EditorStyle (67)
+[2016.07.21-01.39.07:543][403]LogModuleManager: Shutting down and abandoning module SessionServices (66)
+[2016.07.21-01.39.07:543][403]LogModuleManager: Shutting down and abandoning module SourceCodeAccess (65)
+[2016.07.21-01.39.07:543][403]LogModuleManager: Shutting down and abandoning module HeadMountedDisplay (64)
+[2016.07.21-01.39.07:543][403]LogModuleManager: Shutting down and abandoning module XAudio2 (63)
+[2016.07.21-01.39.07:543][403]LogModuleManager: Shutting down and abandoning module Networking (61)
+[2016.07.21-01.39.07:543][403]LogModuleManager: Shutting down and abandoning module Core (60)
+[2016.07.21-01.39.07:543][403]LogModuleManager: Shutting down and abandoning module KismetCompiler (59)
+[2016.07.21-01.39.07:543][403]LogModuleManager: Shutting down and abandoning module PhysXFormats (58)
+[2016.07.21-01.39.07:543][403]LogModuleManager: Shutting down and abandoning module MeshUtilities (57)
+[2016.07.21-01.39.07:543][403]LogModuleManager: Shutting down and abandoning module DerivedDataCache (56)
+[2016.07.21-01.39.07:615][403]LogDerivedDataCache: Shutdown
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module ShaderFormatOpenGL (55)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module ShaderFormatD3D (54)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module MetalShaderFormat (53)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module TextureFormatUncompressed (52)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module TextureFormatPVR (51)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module TextureFormatIntelISPCTexComp (50)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module TextureFormatDXT (49)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module ImageWrapper (48)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module TextureFormatASTC (47)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module TextureFormatAndroid (46)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module AudioFormatOpus (45)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module AudioFormatOgg (44)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module AudioFormatADPCM (43)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module LinuxTargetPlatform (42)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module LinuxServerTargetPlatform (41)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module LinuxNoEditorTargetPlatform (40)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module Messaging (39)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module IOSTargetPlatform (38)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module HTML5TargetPlatform (37)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module Android_PVRTCTargetPlatform (36)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module Android_MultiTargetPlatform (35)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module Android_ETC2TargetPlatform (34)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module Android_ETC1TargetPlatform (33)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module Android_DXTTargetPlatform (32)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module Android_ATCTargetPlatform (31)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module Android_ASTCTargetPlatform (30)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module AndroidTargetPlatform (29)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module WindowsTargetPlatform (28)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module WindowsServerTargetPlatform (27)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module WindowsNoEditorTargetPlatform (26)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module WindowsClientTargetPlatform (25)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module AllDesktopTargetPlatform (24)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module TargetPlatform (23)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module InputCore (22)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module Settings (21)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module OnlineSubsystem (19)
+[2016.07.21-01.39.07:615][403]LogModuleManager: Shutting down and abandoning module HTTP (18)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module XMPP (17)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module OculusRift (16)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module ExampleDeviceProfileSelector (15)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module TextureCompressor (14)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module ShaderCore (13)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module Landscape (12)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module SlateRHIRenderer (11)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module OpenGLDrv (10)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module D3D11RHI (9)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module AnimGraphRuntime (8)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module Renderer (7)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module Engine (6)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module CoreUObject (5)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module NetworkFile (4)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module StreamingFile (3)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module SandboxFile (2)
+[2016.07.21-01.39.07:616][403]LogModuleManager: Shutting down and abandoning module PakFile (1)
+[2016.07.21-01.39.07:617][403]LogExit: Exiting.
+[2016.07.21-01.39.07:619][403]Log file closed, 07/20/16 18:39:07
